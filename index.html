@@ -11,6 +11,7 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
       <h1 class="logo">
         <a href="index.html">
           <img src="images/logo.png" alt="acme logo">
-          <span>ACME</span>
+          <span class="hidden">ACME</span>
         </a>
       </h1>
       <nav>
@@ -41,9 +42,45 @@
   </header>
   <main>
     <section class="hero inner-top-pd">
-      <div class="container"></div>
+      <div class="container d-flex flex-column align-items-center g-1">
+        <h2 class="text-heading-xl">Portfolio Manager</h2>
+        <h3 class="text-body-l">It's awesome. And it's FREE!</h3>
+        <a href="#" class="btn btn-primary big">sign up for free</a>
+        <img src="images/hero_image.png" alt="">
+      </div>
     </section>
-    <section class="features container inner-pd"></section>
+    <section class="features container inner-pd">
+      <h2 class="hidden">Features</h2>
+      <ul class="d-flex justify-content-between">
+        <li>
+          <div class="icon">
+            <span class="material-icons">person</span>
+          </div>
+          <h3 class="text-heading-s">This is a feature title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas labore minima totam incidunt exercitationem officia corrupti debitis rem porro. 
+          </p>
+        </li>
+        <li>
+          <div class="icon">
+            <span class="material-icons">list</span>
+          </div>
+          <h3  class="text-heading-s">This is a feature title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas labore minima totam incidunt exercitationem officia corrupti debitis rem porro. 
+          </p>
+        </li>
+        <li>
+          <div class="icon">
+            <span class="material-icons">star</span>
+          </div>
+          <h3 class="text-heading-s">This is a feature title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas labore minima totam incidunt exercitationem officia corrupti debitis rem porro. 
+          </p>
+        </li>
+      </ul>
+    </section>
     <hr class="container">
     <section class="testimonial container inner-pd"></section>
     <section class="cta inner-pd"></section>
