@@ -63,6 +63,11 @@ body {
   font-size: var(--body--m-plus);
   line-height: var(--base-unit);
 }
+.text-nav {
+  font-size: var(--nav--item);
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 /* 링크 버튼 */
 .btn{
@@ -138,4 +143,17 @@ body > header {
   background: var(--white);
   padding: var(--base-unit) 0;
   box-shadow:0 4px 5px rgba(0,0,0,.1);
+}
+.logo span{
+  position: absolute;
+  clip-path:inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+header nav ul {
+  gap: 10px;
+}
+header nav ul li:first-child{
+  margin-right: 40px;
 }
